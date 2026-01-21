@@ -24,8 +24,18 @@
     gap: 1.5rem;
 }
 
-.header__text {
+.header__title {
+    font-family: 'luckiest Guy', sans-serif;
+    font-size: 3.5rem;
+    color: #FFFFFF;
     text-align: center;
+    width: 313px;
+}
+
+.header__text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1rem;
     color: #FFFFFF;
 }
 
@@ -42,9 +52,6 @@
     border: none;
     border-radius: 1.75rem;
     cursor: pointer;
-}
-
-.btn--download {
     background-color: #FFFFFF;
 }
 
@@ -53,146 +60,53 @@
     color: #FFFFFF;
 }
 
-.first-content{
+.feature {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    width: 100%;
-    height: auto;
-    padding: 40px;
+    align-items: center;
+    gap: 1rem;
+    padding: 2.5rem 0;
+
 }
 
-.first-image img{
-    max-width: 607px;
-    max-height: 394px;
-}
-
-.first-text {
+.feature__content {
     width: 351px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.first-text h2{
-    width: 100%;
-    font-family: 'open sans';
-    font-weight: 800;
-    margin: 0px;
-    font-size: 40px;
-}
-
-.first-text p{
-    width: 100%;
-    text-align: left;
-    color: rgba(35, 39, 42, 1);
-}
-
-
-.second-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 40px 40px;
-
-    gap: 3rem;
-    background-color:rgba(246, 246, 246, 1);
-}
-
-
-.second-container-text{
-    width: 351px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-}
-
-.second-container-text p{
-    width: 100%;
-    font-family: 'open sans';
-    text-align: left;
-    color: rgba(35, 39, 42, 1);
-}
-
-.second-container-text h2{
-    width: 100%;
-    font-family: 'open sans';
-    font-size: 40px;
-    font-weight: 800;
-    margin: 0px;
+.feature__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     color: #23272A;
 }
 
-.second-container-image img {
-    width: 100%;
-    height: auto;
-}
-
-.third-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    gap: 3rem;
-}
-
-.third-image img{
-    width: 100%;
-}
-
-.third-text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 351px;
-}
-
-.third-text h2 {
-    font-family: 'open sans';
-    font-size: 40px;
+.feature__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
     font-weight: 800;
     color: #23272A;
 }
 
-.third-text p {
-    text-align: left;
-    font-family: 'open sans';
-    color: #23272A;
-}
-
-.founth-section{
-    display: flex;
+.feature--technology {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
-    gap: 16px;
-    margin: 0px;
-    background-color: rgba(246, 246, 246, 1);
-    grid-area: founth-section;
 }
 
-.founth-text-01 h2 {
-    width: 608px;
-    font-family: 'luckiest Guy';
+.feature--technology .feature__text {
+    max-width: 802px;
     text-align: center;
-    margin: 0px;
 }
 
-.founth-text-02 p {
-    width: 802px;
+.feature--technology .feature__subtitle {
+    font-family: 'luckiest Guy', sans-serif;
+    max-width: 608px;
     text-align: center;
-    font-family: 'open Sans';
-    margin: 0px;
-    color: #23272A;
 }
 
-.founth-image img {
-    max-width: 650px;
-    max-height: 508px;
+.first-image img {
+    width: 607px;
+    height: 394px;
 }
 
 footer {

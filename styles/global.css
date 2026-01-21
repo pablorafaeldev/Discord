@@ -5,28 +5,3 @@
     box-sizing: border-box;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    color: #23272A;
-}
-
-h1 {
-    font-family: 'luckiest Guy', sans-serif;
-    font-size: 3.5rem;
-    color: #FFFFFF;
-    text-align: center;
-
-    width: 313px;
-    height: 112px;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: #23272A;
-}
-
-
-
