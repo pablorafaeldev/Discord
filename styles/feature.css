@@ -1,0 +1,48 @@
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2.5rem 0;
+
+}
+
+.feature__content {
+    width: 351px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #23272A;
+}
+
+.feature__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #23272A;
+}
+
+.feature--technology {
+    flex-direction: column;
+}
+
+.feature--technology .feature__text {
+    max-width: 802px;
+    text-align: center;
+}
+
+.feature--technology .feature__subtitle {
+    font-family: 'luckiest Guy', sans-serif;
+    max-width: 608px;
+    text-align: center;
+}
+
+.first-image img {
+    width: 607px;
+    height: 394px;
+}
