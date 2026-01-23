@@ -49,6 +49,10 @@
     text-align: center;
 }
 
+.feature--background-color {
+    background-color: #F6F6F6;
+}
+
 @media (max-width: 430px) {
     .feature {
         padding: 2.5rem 1.5rem;
