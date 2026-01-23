@@ -7,18 +7,17 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url(../img/headerbackground.png);
+    background-image: url(../img/HeaderBackground.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .header__content {
-    width: 757px;
-    height: 270px;
-
+    max-width: 757px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
 }
@@ -28,7 +27,9 @@
     font-size: 3.5rem;
     color: #FFFFFF;
     text-align: center;
-    width: 313px;
+    max-width: 313px;
+    margin: auto;
+
 }
 
 .header__text {
@@ -40,6 +41,8 @@
 
 .header__buttons{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -52,9 +55,44 @@
     border-radius: 1.75rem;
     cursor: pointer;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .btn--navigation {
     background-color: #23272A;
     color: #FFFFFF;
+}
+
+@media (max-width: 780px) {
+    .header {
+        height: 505px;
+    }
+
+    .header__content {
+        padding-inline: 2rem;
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .header__content {
+     padding-inline: 1.5rem;
+    }
+
+    .header__title {
+        margin: 0;
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .header__text {
+        text-align: start;
+    }
 }

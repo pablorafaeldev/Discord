@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 2.5rem 0;
 
@@ -12,6 +13,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.feature__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .feature__text {
@@ -42,7 +49,21 @@
     text-align: center;
 }
 
-.first-image img {
-    width: 607px;
-    height: 394px;
+@media (max-width: 430px) {
+    .feature {
+        padding: 2.5rem 1.5rem;
+        gap: 1.75rem;
+    }
+
+    .feature__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .feature--technology .feature__subtitle {
+        text-align: start;
+    }
+
+    .feature--technology .feature__text {
+    text-align: start;
+    }
 }
